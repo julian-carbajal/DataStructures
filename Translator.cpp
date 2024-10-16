@@ -7,7 +7,7 @@
 
 Translator::Translator() {} // default constructor
 
-std::string Translator::translateEnglishWord(const std::string& word) { // debugged translateEnglishWord with Chatgpt & used the same code for translateEnglishSentence
+std::string Translator::translateEnglishWord(const std::string& word) { 
     Model model;
     std::string newString;
     for (std::string::size_type i = 0; i < word.length(); ++i) {
