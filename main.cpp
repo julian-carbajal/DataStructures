@@ -3,7 +3,7 @@
 #include "FileProcessor.h"
 #include "Translator.h"
 
-int main () {     //utilized ChatGPT in the main file
+int main () {     
     Model model;
 
     FileProcessor process = FileProcessor();
